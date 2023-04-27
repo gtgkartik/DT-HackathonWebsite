@@ -1,5 +1,6 @@
 {
   "name": "hackathon-website-template",
+  "homepage": "https://kartikkumar999.github.io/DT-HackathonWebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
