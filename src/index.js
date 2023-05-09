@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Nav from './containers/navbar/App.jsx';
 import {CalenderContextProvider} from './Context/calender.context';
+import Nav from './containers/navbar/App.jsx';
 
 const rootElement = document.getElementById('body');
 

@@ -2,6 +2,14 @@ import {SOCIALS, TOP_SECTION} from '../../Module/General';
 import MytypedComponent from '../Typed/index.js';
 import './style.css';
 
+const handleClick = () => {
+  return (
+    <>
+      <h1>Hello</h1>
+    </>
+  );
+};
+
 const Btn = props => {
   return (
     <button className={props.class}>
@@ -31,7 +39,7 @@ const Myinfo = () => {
       <div className="join_dis">
         <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
           <Btn
-            ico="fab fa-2x fa-discord"
+            ico="fab fa-1x fa-discord"
             class="join_disco"
             type="Join our discord"
             overlay="Click the link"
@@ -41,15 +49,11 @@ const Myinfo = () => {
       <div className="buttom-group">
         <a href={TOP_SECTION.JUDGES_FORM_LINK}>
           {' '}
-          <Btn class="sponsor_btn" type="Judges" overlay="Fill the form" />
-        </a>
-
-        <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
-          {' '}
           <Btn
-            class="register"
-            type="Register "
-            overlay="Hackers registration"
+            onClick={handleClick}
+            class="sponsor_btn"
+            type="Hackathons"
+            overlay="Search Hackathons"
           />
         </a>
       </div>

@@ -34,32 +34,35 @@ import Ryah from './Assets/teami/Ryah.jpg';
 import zoha from './Assets/teami/zoha.png';
 
 const TOP_SECTION = {
-  TITLE: 'Join Limbo Hacks',
-  Typed_effect: ['24 hours of creation', 'Win awesome prizes'],
+  TITLE: 'Join Hack Hive',
+  Typed_effect: [
+    'Welcome to HackHive',
+    ' The ultimate online resource for college students',
+    'To discover and participate in hackathons!'
+  ],
   SHORT_DESCRIPTION:
-    'Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.',
+    'Our team at HackHive is passionate about fostering a culture of innovation and creativity among college students. We believe that hackathons are the perfect platform for students to showcase their skills.',
   IMG_SRC: boy,
   DISCORD_LINK: '',
-  JUDGES_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u',
+  JUDGES_FORM_LINK: '',
   HACKERS_REGISTRATION_FORM_LINK:
     'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u'
 };
 
 const SOCIALS = {
-  instagram: 'https://www.instagram.com/limbohacks/',
-  discord: 'https://discord.com/invite/8XJSzmtWPp',
-  linkedin: 'https://www.linkedin.com/company/limbo-hacks/',
-  twitter: 'https://twitter.com/HacksLimbo',
-  devpost: 'https://limbo-hacks-12968.devpost.com/',
-  email: 'mailto:hello@limbohacks.tech',
-  mail: 'hello@limbohacks.tech'
+  instagram: 'https://www.instagram.com/',
+  discord: 'https://discord.gg/GZSMxZ5Q',
+  linkedin: 'https://www.linkedin.com/',
+  twitter: 'https://twitter.com/',
+  devpost: 'https://devpost.com/',
+  email: 'mailto:gtgkartik@gmail.com',
+  mail: 'gtgkartik@gmail.com'
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'What is Limbo hacks?',
+  TITLE: 'What is Hack Hive?',
   LONG_DESCRIPTION:
-    'Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
+    'Our team at HackHive is passionate about fostering a culture of innovation and creativity among college students. We believe that hackathons are the perfect platform for students to showcase their skills, collaborate with like-minded individuals, and gain valuable experience in the field of technology. With our user-friendly interface, you can easily search for upcoming hackathons, filter them by location, duration, or theme, and apply directly through our platform. Additionally, our website provides valuable resources such as coding tutorials, event reviews, and networking opportunities to help you maximize your hackathon experience.',
   LOGO: hackathonLogo
 };
 
@@ -230,22 +233,22 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
-      role: 'Organizer',
+      Name: 'Kartik',
+      role: 'Founder',
       github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
       linkedin: '',
       img: me
     },
     {
       Name: 'Moon',
-      role: 'Organizer',
+      role: 'Co-Founder',
       github: '',
       linkedin: '',
       img: moon
     },
     {
       Name: 'Erika',
-      role: 'Organizer',
+      role: 'CMO',
       github: '',
       linkedin: '',
       img: Ryah
@@ -254,7 +257,7 @@ const TeamInfo = [
   [
     //Array 2
     {
-      Name: 'Lyanola',
+      Name: 'CTO',
       role: 'Organizer',
       github: '',
       linkedin: '',

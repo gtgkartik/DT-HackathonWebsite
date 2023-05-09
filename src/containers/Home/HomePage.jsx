@@ -3,6 +3,15 @@ import {useState} from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import {
+  FOOTER,
+  JudgesInfo,
+  Prizeinfo,
+  TOP_SECTION,
+  TeamInfo,
+  frequentlyAskedQuestions,
+  sponsorLogos
+} from '../../Module/General';
 import {Logo, LogoSectionAbout} from '../../components/About/index.jsx';
 import {Accordion} from '../../components/Accordian/index.jsx';
 import Birds from '../../components/Animation';
@@ -12,19 +21,10 @@ import {FirstPrize, PrizeHeading} from '../../components/Prizes/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {
   Sponsor,
-  SponsorsHead,
-  SponsorUS
+  SponsorUS,
+  SponsorsHead
 } from '../../components/Sponsors/sponsors.jsx';
 import {JoinTeam, Member} from '../../components/Team';
-import {
-  FOOTER,
-  frequentlyAskedQuestions,
-  JudgesInfo,
-  Prizeinfo,
-  sponsorLogos,
-  TeamInfo,
-  TOP_SECTION
-} from '../../Module/General';
 import MyCalender from '../calender';
 import './about.css';
 import pattern from './assets/pattern4.png';
